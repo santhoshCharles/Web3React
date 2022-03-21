@@ -1,0 +1,35 @@
+<svg id="non_photo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="349" height="217" viewBox="0 0 349 217">
+  <defs>
+    <linearGradient id="linear-gradient" y1="1.278" x2="1" y2="1.278" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9ec80"/>
+      <stop offset="0.076" stop-color="#f9ea7c"/>
+      <stop offset="0.165" stop-color="#fae66e"/>
+      <stop offset="0.261" stop-color="#fbde54"/>
+      <stop offset="0.361" stop-color="#fdd42c"/>
+      <stop offset="0.413" stop-color="#ffce07"/>
+      <stop offset="1" stop-color="#f57f20"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.004" y1="3.833" x2="0.999" y2="3.833" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5786c5"/>
+      <stop offset="1" stop-color="#3869b2"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_1" data-name="Path 1" d="M0,15A15,15,0,0,1,15,0H334a15,15,0,0,1,15,15V217H0Z" fill="#ccced4"/>
+  <g id="logo" transform="translate(131.275 63.275)" style="mix-blend-mode: luminosity;isolation: isolate">
+    <g id="Group_24" data-name="Group 24" transform="translate(9.725 11.725)">
+      <g id="Group_17" data-name="Group 17">
+        <path id="Path_14" data-name="Path 14" d="M72.657,22.5A36.878,36.878,0,0,0,20.5,74.657c.121.121.3.243.424.364L73.021,22.929C72.9,22.807,72.778,22.626,72.657,22.5Z" transform="translate(-9.725 -11.725)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Group_18" data-name="Group 18" transform="translate(16.343 16.343)">
+        <path id="Path_15" data-name="Path 15" d="M73.561,45A21.612,21.612,0,0,0,43,75.561l.243.243L73.8,45.24Z" transform="translate(-36.675 -38.675)" fill="#fff"/>
+      </g>
+      <g id="Group_19" data-name="Group 19" transform="translate(14.357 14.418)">
+        <path id="Path_16" data-name="Path 16" d="M33.764,79.83A31.132,31.132,0,0,0,77.79,35.8a1.608,1.608,0,0,0-.364-.3L33.4,79.466Z" transform="translate(-33.4 -35.5)" fill="#f57f20"/>
+      </g>
+      <g id="Group_20" data-name="Group 20" transform="translate(25.697 25.697)">
+        <path id="Path_17" data-name="Path 17" d="M52.282,75.628A15.094,15.094,0,0,0,73.628,54.282l-.182-.182L52.1,75.446Z" transform="translate(-52.1 -54.1)" fill="#102548"/>
+      </g>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="5.822" cy="5.822" r="5.822" transform="translate(31.034 31.034)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

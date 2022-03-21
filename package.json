@@ -1,0 +1,79 @@
+{
+  "name": "reBaked",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@appbaseio/reactivesearch": "^3.18.0",
+    "@manaflair/redux-batch": "^1.0.0",
+    "@reduxjs/toolkit": "^1.5.1",
+    "@webscopeio/react-textarea-autocomplete": "^4.7.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "emoji-mart": "^3.0.1",
+    "formik": "^2.2.6",
+    "html-react-parser": "^1.2.7",
+    "javascript-time-ago": "^2.3.7",
+    "moment": "^2.29.1",
+    "node-sass": "^5.0.0",
+    "query-string": "^7.0.0",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-bootstrap": "^1.5.2",
+    "react-bootstrap-icons": "^1.5.0",
+    "react-bootstrap-typeahead": "^5.1.4",
+    "react-character-counter": "^1.0.1",
+    "react-compound-slider": "^3.3.1",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-datepicker": "^4.1.1",
+    "react-dom": "^17.0.2",
+    "react-git-info": "^2.0.0",
+    "react-mentions": "^4.3.0",
+    "react-multi-email": "^0.5.3",
+    "react-number-format": "^4.6.3",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-phone-number-input": "^3.1.23",
+    "react-rating-stars-component": "^2.2.0",
+    "react-redux": "^7.2.4",
+    "react-render-html": "^0.6.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-select": "^4.3.1",
+    "react-select-country-list": "^2.2.3",
+    "react-slick": "^0.28.1",
+    "react-stars-display": "^0.1.24",
+    "react-time-ago": "^6.2.2",
+    "react-toastify": "^7.0.4",
+    "react-trello": "^2.2.11",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "rxjs": "^7.2.0",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^4.1.3",
+    "sweetalert2": "^11.0.20",
+    "web3": "^1.4.0",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,409 @@
+$theme-colors: (
+  "primary": #3f8ef7,
+);
+/* import bootstrap to set changes */
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./assets/fonts/fonts.css";
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+@mixin border-radius($property) {
+  -webkit-border-radius: $property;
+  -ms-border-radius: $property;
+  border-radius: $property;
+}
+
+@mixin box-shadow($property) {
+  -webkit-box-shadow: $property;
+  -ms-box-shadow: $property;
+  box-shadow: $property;
+}
+
+$white: #fff;
+$black: #000;
+$red: #ee4727;
+$red2: #e62222;
+$red3: #eb5757;
+$blue: #3f8ef7;
+$blue2: #0854ba;
+$green: #43d795;
+$green2: #1f915e;
+$gray: #6d7381;
+$yellow: #ffc107;
+body {
+  font-family: "Neue Haas Unica";
+  color: $black;
+  background: #f6f6f6;
+  padding-top: 86px;
+}
+button:focus,
+.btn:focus {
+  @include box-shadow(none);
+  text-decoration: none;
+  outline: none;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+a:hover {
+  color: $blue2;
+}
+p {
+  margin-bottom: 0.6rem;
+}
+.h-100vh {
+  min-height: 100vh;
+}
+.color_yellow {
+  color: $yellow;
+}
+.color_green {
+  color: $green;
+}
+.color_red {
+  color: $red;
+}
+.color_blue {
+  color: $blue;
+}
+.color_black {
+  color: $black;
+}
+.color_gray {
+  color: $gray;
+}
+.opacity30 {
+  opacity: 0.3;
+}
+.opacity50 {
+  opacity: 0.5;
+}
+.opacity60 {
+  opacity: 0.6;
+}
+.opacity70 {
+  opacity: 0.7;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.pt-80 {
+  padding-top: 80px;
+}
+.pb-80 {
+  padding-bottom: 80px;
+}
+.pt-60 {
+  padding-top: 60px;
+}
+.pb-60 {
+  padding-bottom: 60px;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+.pb-50 {
+  padding-bottom: 50px;
+}
+.pt-40 {
+  padding-top: 40px;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
+//
+// New variable and class
+//
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 0;
+}
+h1,
+.h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  @media screen and (max-width: 1440px) {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+h2,
+.h2 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  @media screen and (max-width: 1440px) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+h3,
+.h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  @media screen and (max-width: 1440px) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+h4,
+.h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  @media screen and (max-width: 1440px) {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+h5,
+.h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  @media screen and (max-width: 1440px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+h6,
+.h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  @media screen and (max-width: 1440px) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.p1 {
+  font-size: 20px;
+  line-height: 28px;
+  @media screen and (max-width: 1440px) {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+.p2 {
+  font-size: 18px;
+  line-height: 26px;
+  @media screen and (max-width: 1440px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.p3 {
+  font-size: 16px;
+  line-height: 24px;
+  @media screen and (max-width: 1440px) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.p4 {
+  font-size: 14px;
+  line-height: 22px;
+}
+.p5 {
+  font-size: 11px;
+  line-height: 22px;
+}
+.f40-700 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 900;
+  @media screen and (max-width: 1440px) {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+.f100-700 {
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 900;
+  @media screen and (max-width: 1440px) {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+%btn {
+  padding: 9px 12px;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  @include border-radius(8px);
+}
+.btn-blue {
+  @extend %btn;
+  border: 1px solid $blue;
+  background: $blue;
+  color: $white;
+  &.btn-lg {
+    padding: 11px 12px;
+    font-size: 18px;
+    line-height: 26px;
+    min-width: 160px;
+  }
+  &.btn-sm {
+    padding: 8px 12px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &:hover {
+    text-decoration: none;
+    background: $blue2;
+    border-color: $blue2;
+    color: $white;
+  }
+}
+.btn-green {
+  @extend %btn;
+  border: 1px solid $green;
+  background: $green;
+  color: $white;
+  &.btn-lg {
+    padding: 11px 12px;
+    font-size: 18px;
+    line-height: 26px;
+    min-width: 160px;
+  }
+  &.btn-sm {
+    padding: 8px 12px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &:hover {
+    text-decoration: none;
+    color: $white;
+    background: $green2;
+    border-color: $green2;
+  }
+}
+.btn-red {
+  @extend %btn;
+  border: 1px solid $red3;
+  background: $red3;
+  color: $white;
+  display: flex;
+  align-items: center;
+  &.btn-lg {
+    padding: 11px 12px;
+    font-size: 18px;
+    line-height: 26px;
+    min-width: 160px;
+  }
+  &.btn-sm {
+    padding: 8px 12px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &:hover {
+    text-decoration: none;
+    color: $white;
+    background: $red2;
+    border-color: $red2;
+  }
+}
+.btn-outline-black {
+  @extend %btn;
+  color: #6d7381;
+  border: 1px solid #6d7381;
+  @include border-radius(8px);
+  background: transparent;
+  &.btn-lg {
+    padding: 11px 12px;
+    font-size: 18px;
+    line-height: 26px;
+    min-width: 160px;
+  }
+  &.btn-sm {
+    padding: 8px 12px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &:hover {
+    text-decoration: none;
+    border-color: $blue2;
+    color: $black;
+  }
+}
+.btn-link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+.btn-link-lg {
+  font-size: 20px;
+  line-height: 28px;
+  padding: 0;
+  color: $blue;
+  &:hover {
+    text-decoration: none;
+    color: $blue2;
+  }
+}
+.btn-link-md {
+  font-size: 18px;
+  line-height: 26px;
+  padding: 0;
+  color: $blue;
+  &:hover {
+    text-decoration: none;
+    color: $blue2;
+  }
+}
+.btn-link-sm {
+  font-size: 14px;
+  line-height: 22px;
+  padding: 0;
+  background: transparent;
+  color: $black;
+  border: none;
+  &:hover {
+    text-decoration: none;
+    color: $blue;
+  }
+}
+.w-335px {
+  max-width: 335px;
+  width: 100%;
+}
+.arrow_right {
+  position: relative;
+  &:after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 6px solid $blue;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    top: 11px;
+    right: 0;
+  }
+}

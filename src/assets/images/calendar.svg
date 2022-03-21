@@ -1,0 +1,62 @@
+<svg id="calendar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_1130" data-name="Group 1130">
+    <g id="Group_1129" data-name="Group 1129">
+      <path id="Path_3994" data-name="Path 3994" d="M23.063,16.5A.937.937,0,0,0,24,15.563V5.625a3.754,3.754,0,0,0-3.75-3.75H19.031V.938a.938.938,0,0,0-1.875,0v.938H12.891V.938a.938.938,0,0,0-1.875,0v.938H6.8V.938a.938.938,0,0,0-1.875,0v.938H3.75A3.754,3.754,0,0,0,0,5.625V20.25A3.754,3.754,0,0,0,3.75,24h16.5A3.754,3.754,0,0,0,24,20.25a.938.938,0,0,0-1.875,0,1.877,1.877,0,0,1-1.875,1.875H3.75A1.877,1.877,0,0,1,1.875,20.25V5.625A1.877,1.877,0,0,1,3.75,3.75H4.922v.938a.938.938,0,0,0,1.875,0V3.75h4.219v.938a.938.938,0,0,0,1.875,0V3.75h4.266v.938a.938.938,0,0,0,1.875,0V3.75H20.25a1.877,1.877,0,0,1,1.875,1.875v9.938A.937.937,0,0,0,23.063,16.5Z"/>
+    </g>
+  </g>
+  <g id="Group_1132" data-name="Group 1132" transform="translate(4.609 8.696)">
+    <g id="Group_1131" data-name="Group 1131">
+      <circle id="Ellipse_41" data-name="Ellipse 41" cx="1" cy="1" r="1"/>
+    </g>
+  </g>
+  <g id="Group_1134" data-name="Group 1134" transform="translate(13.305 8.696)">
+    <g id="Group_1133" data-name="Group 1133">
+      <circle id="Ellipse_42" data-name="Ellipse 42" cx="1" cy="1" r="1"/>
+    </g>
+  </g>
+  <g id="Group_1136" data-name="Group 1136" transform="translate(16.782 8.696)">
+    <g id="Group_1135" data-name="Group 1135">
+      <circle id="Ellipse_43" data-name="Ellipse 43" cx="1" cy="1" r="1"/>
+    </g>
+  </g>
+  <g id="Group_1138" data-name="Group 1138" transform="translate(4.609 13.044)">
+    <g id="Group_1137" data-name="Group 1137">
+      <circle id="Ellipse_44" data-name="Ellipse 44" cx="1" cy="1" r="1"/>
+    </g>
+  </g>
+  <g id="Group_1140" data-name="Group 1140" transform="translate(4.609 16.42)">
+    <g id="Group_1139" data-name="Group 1139">
+      <circle id="Ellipse_45" data-name="Ellipse 45" cx="1" cy="1" r="1" transform="translate(0 0.965)"/>
+    </g>
+  </g>
+  <g id="Group_1142" data-name="Group 1142" transform="translate(8.957 8.696)">
+    <g id="Group_1141" data-name="Group 1141">
+      <circle id="Ellipse_46" data-name="Ellipse 46" cx="1" cy="1" r="1"/>
+    </g>
+  </g>
+  <g id="Group_1144" data-name="Group 1144" transform="translate(8.957 13.044)">
+    <g id="Group_1143" data-name="Group 1143">
+      <circle id="Ellipse_47" data-name="Ellipse 47" cx="1" cy="1" r="1"/>
+    </g>
+  </g>
+  <g id="Group_1146" data-name="Group 1146" transform="translate(8.957 16.42)">
+    <g id="Group_1145" data-name="Group 1145">
+      <circle id="Ellipse_48" data-name="Ellipse 48" cx="1" cy="1" r="1" transform="translate(0 0.965)"/>
+    </g>
+  </g>
+  <g id="Group_1148" data-name="Group 1148" transform="translate(13.305 13.044)">
+    <g id="Group_1147" data-name="Group 1147">
+      <circle id="Ellipse_49" data-name="Ellipse 49" cx="1" cy="1" r="1"/>
+    </g>
+  </g>
+  <g id="Group_1150" data-name="Group 1150" transform="translate(16.782 13.044)">
+    <g id="Group_1149" data-name="Group 1149">
+      <circle id="Ellipse_50" data-name="Ellipse 50" cx="1" cy="1" r="1"/>
+    </g>
+  </g>
+  <g id="Group_1152" data-name="Group 1152" transform="translate(13.305 16.42)">
+    <g id="Group_1151" data-name="Group 1151">
+      <circle id="Ellipse_51" data-name="Ellipse 51" cx="1" cy="1" r="1" transform="translate(0 0.965)"/>
+    </g>
+  </g>
+</svg>
